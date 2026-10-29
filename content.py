@@ -21,9 +21,12 @@ PROFILE = {
     "featured_demo_label": "Try the live ClickCart demo",
     "featured_demo_url": "https://arbinsecommerce.netlify.app",
     "cv_file": "assets/Arbin_Sigdel_CV_Junior_Developer.pdf",
+    # The same CV is served from static/ so the Download button can be a plain link.
+    "cv_url": "app/static/Arbin_Sigdel_CV_Junior_Developer.pdf",
     "cv_download_name": "Arbin_Sigdel_CV.pdf",
-    # Optional: put a photo at assets/profile.jpg and it appears next to the intro.
-    "photo_file": "assets/profile.jpg",
+    # Optional: put a photo at static/profile.jpg and it appears on the About page.
+    "photo_file": "static/profile.jpg",
+    "photo_url": "app/static/profile.jpg",
 }
 
 ABOUT = [
@@ -137,3 +140,30 @@ EDUCATION = {
     "school": "Kathmandu Engineering College, Kalimati, Kathmandu",
     "when": "Graduated July 2025",
 }
+
+
+# ---- Added for the redesign ------------------------------------------------
+
+# Words that roll in the home-page headline: "I build ___".
+ROLES = ["React interfaces", "Django features", "REST integrations", "tested, readable code"]
+
+# Numbers shown on the home page. Each one comes from the text above.
+STATS = [
+    (2, "", "Internships"),
+    (9, "", "Months of experience"),
+    (4, "", "Projects built"),
+    (95, "%", "Accuracy, fake-news model"),
+]
+
+# What I do: three cards on the home page.
+FOCUS = [
+    ("Frontend", "Responsive interfaces from design files, with reusable components.",
+     "React, Next.js, TypeScript, Tailwind"),
+    ("Backend", "Django features, REST API integration and Firebase.",
+     "Django, REST, Firebase"),
+    ("Data and AI", "Classifiers and retrieval pipelines in Python.",
+     "Scikit-Learn, LangChain, FAISS"),
+]
+
+# Which projects get a big card on the home page (by name).
+FEATURED = ["ClickCart", "Fake News Detection"]
