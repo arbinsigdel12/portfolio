@@ -9,7 +9,7 @@ from ui import badges, cv_button, ext, head, html, project_card
 def code_card() -> str:
     lines = [
         '<span class="k">const</span> <span class="v">arbin</span> = {',
-        f'  <span class="v">role</span>: <span class="s">"Junior Developer"</span>,',
+        f'  <span class="v">role</span>: <span class="s">"Developer"</span>,',
         f'  <span class="v">based</span>: <span class="s">"{e(PROFILE["location"])}"</span>,',
         '  <span class="v">stack</span>: [<span class="s">"React"</span>, <span class="s">"Next.js"</span>, <span class="s">"TypeScript"</span>, <span class="s">"Django"</span>],',
         '  <span class="v">learning</span>: [<span class="s">"Jest"</span>, <span class="s">"Vitest"</span>, <span class="s">"SQL"</span>],',
@@ -25,7 +25,7 @@ def hero() -> None:
     rolls = "".join(f"<b>{e(r)}</b>" for r in ROLES + ROLES[:1])
     html(
         '<div class="pf hero"><div>'
-        f'<span class="live rv"><span class="dot"></span>Open to junior developer roles</span>'
+        f'<span class="live rv"><span class="dot"></span>Open to Developer roles</span>'
         f'<h1 class="rv" style="--d:100ms">Hi, I\'m <span class="shine">{e(PROFILE["name"].split()[0])}.</span></h1>'
         f'<div class="roll-line rv" style="--d:200ms">I build <span class="roll"><span class="roll-in">{rolls}</span></span></div>'
         f'<p class="lead rv" style="--d:300ms">{e(PROFILE["intro"])}</p>'
@@ -79,7 +79,7 @@ def featured() -> None:
 def cta() -> None:
     html(
         '<div class="pf sec"><div class="cta sc"><span class="eyebrow">Let\'s talk</span>'
-        '<h2 style="margin-top:.7rem!important">Looking for a junior developer?</h2>'
+        '<h2 style="margin-top:.7rem!important">Looking for a developer?</h2>'
         '<p>I would like to learn from senior engineers and contribute from the first month.</p>'
         f'<div class="btns">{cv_button()}'
         f'{ext("mailto:" + PROFILE["email"], "Email me", "btn", arrow=False)}</div></div></div>'
