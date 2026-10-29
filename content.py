@@ -6,9 +6,9 @@ the placeholder GitHub links in PROJECTS with the exact repository URLs.
 
 PROFILE = {
     "name": "Arbin Sigdel",
-    "page_title": "Arbin Sigdel | Junior Developer, Kathmandu",
+    "page_title": "Arbin Sigdel |Developer, Kathmandu",
     "intro": (
-        "I'm a junior developer in Kathmandu. I turn designs into working React "
+        "I'm a developer in Kathmandu. I turn designs into working React "
         "interfaces and Django features, and I'm building the habits a team relies on: "
         "tests, code review and clear documentation."
     ),
@@ -149,10 +149,9 @@ ROLES = ["React interfaces", "Django features", "REST integrations", "tested, re
 
 # Numbers shown on the home page. Each one comes from the text above.
 STATS = [
-    (2, "", "Internships"),
-    (9, "", "Months of experience"),
-    (4, "", "Projects built"),
-    (95, "%", "Accuracy, fake-news model"),
+    (3, "", "Internships"),
+    (14, "", "Months of experience"),
+    (21, "", "Projects built"),
 ]
 
 # What I do: three cards on the home page.
