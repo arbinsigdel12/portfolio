@@ -12,7 +12,7 @@ PROFILE = {
         "interfaces and Django features, and I'm building the habits a team relies on: "
         "tests, code review and clear documentation."
     ),
-    "facts": "Two internships, nine months in total. Computer Engineering graduate, July 2025.",
+    "facts": "Two internships, nine months in total. Computer Engineering graduate, July 2024.",
     "location": "Kathmandu, Nepal",
     "email": "sigdelarbin1@gmail.com",
     "phone": "+977 9863482269",
@@ -31,7 +31,7 @@ PROFILE = {
 
 ABOUT = [
     "I studied Computer Engineering at Kathmandu Engineering College and graduated in "
-    "July 2025. Before and after graduating I worked as an intern at two companies: "
+    "July 2024. Before and after graduating I worked as an intern at two companies: "
     "Django development at Matrix Softech, then frontend development with React, Next.js "
     "and TypeScript at Codniv Innovations.",
     "At Codniv I turned designs into responsive interfaces, built reusable components, "
@@ -138,7 +138,7 @@ SKILLS = [
 EDUCATION = {
     "degree": "Bachelor in Computer Engineering",
     "school": "Kathmandu Engineering College, Kalimati, Kathmandu",
-    "when": "Graduated July 2025",
+    "when": "Graduated July 2024",
 }
 
 
